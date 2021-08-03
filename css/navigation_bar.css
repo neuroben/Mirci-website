@@ -31,7 +31,7 @@ nav{
 }
 */
 .container{
-	width: 600px;
+	width: 750px;
 	margin: 0 auto;
 	text-align: center;
 
@@ -44,19 +44,22 @@ nav{
 	margin: 0px;
 }
 .nav_links li {
-	border-radius: 10px;
+	/*border-radius: 10px;*/
+	opacity: 0.6;
 	float: left;
-	background: #F5A389;
+	background: black;
 	width: 150px;
 	height:  30px;
-	border: 0px, 1px, 0px, 1px;
+	border: 0px, 5px, 0px, 5px solid;
+	border-color: #F5F5F5;
 }
 .nav_links li:hover {
-	background: #F3DBD3;
+	background: gray;
 }
 .nav_links li a {
+	opacity: 1;
 	display: block;
 	padding: 5px;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
