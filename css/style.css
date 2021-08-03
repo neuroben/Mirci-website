@@ -3,15 +3,18 @@ body{
 	margin: 0;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 }
+h1,h2{
+	font-family: 'Cute Font', cursive;
+}
+
+/* header styles */
 header{
 	background-color: #2ECC71;
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-h1,h2{
-	font-family: 'Cute Font', cursive;
-}
+
 header h1{
 	color: whitesmoke;
 }
@@ -20,6 +23,8 @@ header img{
 	border-radius: 170px;
 	width:  300px;
 }
+
+/* main styles */
 main li{
 	line-height: 30px;
 }
@@ -27,6 +32,8 @@ main{
 	margin:  0 auto;
 	max-width: 800px;
 }
+
+/* footer styles */
 footer p{
 	background-color: #DAF7A6;
 	margin: 0 auto;
