@@ -34,6 +34,16 @@ main{
 }
 
 /* footer styles */
-
+footer{
+	text-align: center;
+	font-family: 'Times New Roman', 'sans-serif;';
+	font-size: 15px;
+	font-style: italic;
+}
+footer p{
+	width: 750px;
+	background-color: #DAF7A6;
+	margin: 0 auto;
+}
 
 
